@@ -1,3 +1,5 @@
+package ctci.arraysNstrings;
+
 public class CTCI_IsUnique {
     
     public static void main(String[] args) {
@@ -24,6 +26,11 @@ public class CTCI_IsUnique {
 
     /**
      * without using extra data structure
+     * 
+     * - iterate through each char and compare with the all chars
+     * in the entire string. 0(n2)
+     * 
+     * - 
      * @param s
      * @return
      */
